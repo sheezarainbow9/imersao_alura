@@ -1,4 +1,4 @@
-/* Conversor de moedas
+/* Conversor de moedas */
 var moeda = prompt(
   "Qual moeda deseja converter o valor? D: dólar, B: bitcoin ou E: euro: "
 );
@@ -22,7 +22,7 @@ if (moeda == "D") {
     alert(`O valor de €${valor} = R$${valorEmReal.toFixed(2)}`);
   }
 }
-*/
+
 
 /* Conversor de temperaturas:
 var nome = prompt("Qual seu nome? ");
