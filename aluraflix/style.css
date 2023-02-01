@@ -8,9 +8,45 @@ body {
     background-repeat: no-repeat;
   }
   
-  .container {
+  #container-input {
+    
     text-align: center;
     padding: 20px;
+     
+  }
+
+  .btn-add {
+    padding-top: 30px;
+    position: fixed left;
+  }
+
+  input#btn {
+    margin-top: 10px;
+    border: none;
+    font-size: 18px;
+    background-color: rgb(218, 41, 41);
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+    
+  }
+
+  input#btn:active {
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+    transform: translateY(2px);
+    transition: .1ms;
+    
+}
+
+  #legenda {
+    font-family: "Roboto Mono", monospace;
+    font-size: 18px;
+    color: white;
   }
   
   .page-title {
