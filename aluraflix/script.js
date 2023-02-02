@@ -1,7 +1,6 @@
 // Meu AluraFlix
 // https://upload.wikimedia.org/wikipedia/pt/d/dd/Pirates_of_silicon_valley_poster_promocional.png
 // https://upload.wikimedia.org/wikipedia/pt/0/01/The_Net.jpg
-// https://upload.wikimedia.org/wikipedia/pt/b/b2/A_Rede_Social.png
 
 function addFilme() {
   var filmeUrl = document.querySelector("#url");
