@@ -20,8 +20,23 @@ function addFilme() {
 
 function listarFilmes(filmeUrl, tituloFilme) {
   var container = document.querySelector("#container-input");
-  container.innerHTML += "<img src=" + filmeUrl + ">" + tituloFilme;
+  if (filmeUrl == container) {
+    alert("Filme já cadastrado!");
+  } else {
+    container.innerHTML +=
+      "<div style='float=right'><img src=" +
+      filmeUrl +
+      "> <p>" +
+      tituloFilme +
+      "</p>";
+  }
 }
+//function listarFilmes(filmeUrl, tituloFilme) {
+// var container = document.querySelector("#container-input");
+// var legenda = document.querySelector("#legenda");
+// container.innerHTML += "<img src=" + filmeUrl + ">" + tituloFilme;
+
+//}
 
 //for (var i = 0; i < listaFilmes.length; i++) {
 //document.write("<img src=" + listaFilmes[i] + ">");
