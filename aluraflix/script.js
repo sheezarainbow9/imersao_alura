@@ -2,47 +2,28 @@
 // https://upload.wikimedia.org/wikipedia/pt/d/dd/Pirates_of_silicon_valley_poster_promocional.png
 // https://upload.wikimedia.org/wikipedia/pt/0/01/The_Net.jpg
 
-function addFilme() {
-  var filmeUrl = document.querySelector("#url");
-  var nomeFilme = document.querySelector("#nome-filme");
-  var tituloFilme = String(nomeFilme.value);
-  var filmeInserido = filmeUrl.value;
-  if (filmeInserido.endsWith(".jpg") || filmeInserido.endsWith(".png")) {
-    listarFilmes(filmeInserido, tituloFilme);
+function adicionarFilme() {
+  var filmeFavorito = document.getElementById("filme").value;
+  var nomeFilme = document.getElementById("legenda").value;
+  var elementoListaFilmes = document.getElementById("listaFilmes");
+  if (filmeFavorito.endsWith(".jpg") || filmeFavorito.endsWith(".png")) {
+    elementoListaFilmes.innerHTML += `<img src=${filmeFavorito} </img><p>${nomeFilme}</p>`;
+
+    document.getElementById("filme").value = "";
   } else {
     alert("Formato Inválido!");
+    filmeFavorito.value = "";
+    
   }
-  // Limpar os campos após inserir:
-  filmeUrl.value = "";
-  nomeFilme.value = "";
+    elementoListaFilmes.value = "";
+    nomeFilme.value = "";
 }
 
-function listarFilmes(filmeUrl, tituloFilme) {
-  var container = document.querySelector("#container-input");
-  if (filmeUrl == container) {
-    alert("Filme já cadastrado!");
-  } else {
-    container.innerHTML +=
-      "<div style='float=right'><img src=" +
-      filmeUrl +
-      "> <p>" +
-      tituloFilme +
-      "</p>";
-  }
-}
-//function listarFilmes(filmeUrl, tituloFilme) {
-// var container = document.querySelector("#container-input");
-// var legenda = document.querySelector("#legenda");
-// container.innerHTML += "<img src=" + filmeUrl + ">" + tituloFilme;
+function delFilme() {
+  //let lastFilme = document.getElementById("listaFilmes");
+  //lastFilme.removeChild(lastFilme.lastElementChild);
+  document.getElementById('listaFilmes').remove();
+  legenda.value="";
+  
+  };
 
-//}
-
-//for (var i = 0; i < listaFilmes.length; i++) {
-//document.write("<img src=" + listaFilmes[i] + ">");
-//}
-
-/* O JS tem o poder de escrever no documento com document.write:
-document.write("<img src=" + listaFilmes[0] + ">");
-document.write("<img src=" + listaFilmes[1] + ">");
-document.write("<img src=" + listaFilmes[2] + ">");
-*/

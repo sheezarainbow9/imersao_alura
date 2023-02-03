@@ -1,86 +1,87 @@
 body {
-    font-family: "Roboto Mono", monospace;
-    text-align: center;
-    background-image: url("https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/background-aluraflix.png");
-    background-color: #000000;
-    background-size: cover;
-    background-position: center top;
-    background-repeat: no-repeat;
-  }
-  
-  #container-input {
-    text-align: center;
-    padding: 20px;
-    color: white;
-    font-size: 18px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 10px;
-    
-   
-  }
-
-  .btn-add {
-    padding-top: 30px;
-    position: fixed left;
-  }
-
-  input#btn {
-    margin-top: 10px;
-    border: none;
-    font-size: 18px;
-    background-color: rgb(218, 41, 41);
-    color: white;
-    font-weight: bold;
-    padding: 5px;
-    font-family: "Roboto Mono", monospace;
-    text-align: center;
-    cursor: pointer;
-    outline: none;
-    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
-    
-  }
-
-  input#btn:active {
-    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
-    transform: translateY(2px);
-    transition: .1ms;
-    
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-image: url("https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-04-aluraflix-e-filmes.png");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
 }
 
-  #legenda {
-    font-family: "Roboto Mono", monospace;
-    font-size: 18px;
-    color: white;
-  }
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+#listaFilmes img {
+  margin: 10px;
+  max-height: 250px;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   
-  .page-title {
-    color: #ffffff;
-    margin: 0 0 5px;
-  }
+}
+
+#listaFilmes > p {
+  color: white;
+  margin-top: 3px;
+  display: inline-flex;
+ 
   
-  .page-subtitle {
-    color: #ffffff;
-    margin-top: 5px;
-  }
   
-  .page-logo {
-    width: 200px;
-  }
-  
-  .alura-logo {
-    width: 40px;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-  }
-  
-  body > img {
-    margin: 0 10px;
-  }
-  
-  img {
-    max-height: 250px;
-  }
-  
+}
+
+.form-wrapper {
+  margin: 0 0 15px;
+}
+
+.form-wrapper input {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 15px;
+}
+
+.form-wrapper > #legenda {
+  margin-top: 10px;
+  float: inline-start;
+}
+
+.form-wrapper button {
+  border: 0;
+  color: #ffffff;
+  background: #da1e26;
+  font-weight: bold;
+  padding: 15px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form-wrapper button:hover {
+  opacity: 0.8;
+}
