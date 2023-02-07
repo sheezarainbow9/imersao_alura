@@ -22,14 +22,37 @@
 ## Descrição do projeto 
 
 <p align="justify">
-  Projetos criados na Imersão da Alura para fins de conhecimento em ferramentas de desenvolvimento variadas.
+  Projetos criados na Imersão da Alura para fins de aprendizagem com ferramentas de desenvolvimento variadas.
 </p>
 
 ## Funcionalidades
 
-:heavy_check_mark: Funcionalidade 1 - Jodo de adivinhação de números aleatórios.
+:heavy_check_mark: Projeto 1 - Conversor de moedas.
 
-:heavy_check_mark: Funcionalidade 2 - Cadastro simples de filmes pelo usuário.
+:heavy_check_mark: Projeto 2 - Conversor de temperaturas.
 
-:heavy_check_mark: Funcionalidade 3 - Registro simples de pontuação de um jogador pelo usuário.
+:heavy_check_mark: Projeto 3 - Calculador de distâncias.
+
+:heavy_check_mark: Projeto 4 - Jodo de adivinhação de números.
+
+:heavy_check_mark: Projeto 5 - Cadastro simples de filmes pelo usuário.
+
+:heavy_check_mark: Projeto 6 - Registro simples de pontuação de um jogador pelo usuário.
+
+## Deploy da Aplicação :dash:
+
+Projeto 1 - https://codepen.io/sheezarainbow9/details/KKBxKBN
+
+Projeto 2 - https://codepen.io/sheezarainbow9/details/ExpejKx
+
+Projeto 3 - https://codepen.io/sheezarainbow9/details/VwBGvpB
+
+Projeto 4 - https://codepen.io/sheezarainbow9/pen/KKBGgGy
+
+Projeto 5 - https://codepen.io/sheezarainbow9/details/jOpQyrJ
+
+Projeto 6 - https://codepen.io/sheezarainbow9/details/yLqZOBg
+
+
+
 
