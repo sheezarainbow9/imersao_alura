@@ -19,6 +19,17 @@
 
 :small_blue_diamond: [Deploy da Aplicação](#deploy-da-aplicação-dash)
 
-:small_blue_diamond: [Pré-requisitos](#pré-requisitos)
+## Descrição do projeto 
 
-:small_blue_diamond: [Como rodar a aplicação](#como-rodar-a-aplicação-arrow_forward)
+<p align="justify">
+  Projetos criados na Imersão da Alura para fins de conhecimento em ferramentas de desenvolvimento variadas.
+</p>
+
+## Funcionalidades
+
+:heavy_check_mark: Funcionalidade 1 - Jodo de adivinhação de números aleatórios.
+
+:heavy_check_mark: Funcionalidade 2 - Cadastro simples de filmes pelo usuário.
+
+:heavy_check_mark: Funcionalidade 3 - Registro simples de pontuação de um jogador pelo usuário.
+
